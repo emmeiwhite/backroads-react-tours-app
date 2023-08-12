@@ -1,15 +1,23 @@
-export default function Tour() { 
-    return (
-        
-    <section className="section" id="tours">
-      <div className="section-title">
-        <h2>featured <span>tours</span></h2>
-      </div>
+import Title from "./Title";
+export default function Tour() {
+  return (
+    <section
+      className="section"
+      id="tours"
+    >
+      <Title
+        text1={"Featured"}
+        text2={"Tours"}
+      />
 
       <div className="section-center featured-center">
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="./images/tour-1.jpeg" className="tour-img" alt="" />
+            <img
+              src="./images/tour-1.jpeg"
+              className="tour-img"
+              alt=""
+            />
             <p className="tour-date">august 26th, 2020</p>
           </div>
           <div className="tour-info">
@@ -23,7 +31,10 @@ export default function Tour() {
             </p>
             <div className="tour-footer">
               <p>
-                <span><i className="fas fa-map"></i></span> china
+                <span>
+                  <i className="fas fa-map"></i>
+                </span>{" "}
+                china
               </p>
               <p>6 days</p>
               <p>from $2100</p>
@@ -33,7 +44,11 @@ export default function Tour() {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="./images/tour-2.jpeg" className="tour-img" alt="" />
+            <img
+              src="./images/tour-2.jpeg"
+              className="tour-img"
+              alt=""
+            />
             <p className="tour-date">october 1th, 2020</p>
           </div>
           <div className="tour-info">
@@ -45,7 +60,10 @@ export default function Tour() {
             </p>
             <div className="tour-footer">
               <p>
-                <span><i className="fas fa-map"></i></span> indonesia
+                <span>
+                  <i className="fas fa-map"></i>
+                </span>{" "}
+                indonesia
               </p>
               <p>11 days</p>
               <p>from $1400</p>
@@ -55,7 +73,11 @@ export default function Tour() {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="./images/tour-3.jpeg" className="tour-img" alt="" />
+            <img
+              src="./images/tour-3.jpeg"
+              className="tour-img"
+              alt=""
+            />
             <p className="tour-date">september 15th, 2020</p>
           </div>
           <div className="tour-info">
@@ -67,7 +89,10 @@ export default function Tour() {
             </p>
             <div className="tour-footer">
               <p>
-                <span><i className="fas fa-map"></i></span> hong kong
+                <span>
+                  <i className="fas fa-map"></i>
+                </span>{" "}
+                hong kong
               </p>
               <p>8 days</p>
               <p>from $5000</p>
@@ -77,7 +102,11 @@ export default function Tour() {
 
         <article className="tour-card">
           <div className="tour-img-container">
-            <img src="./images/tour-4.jpeg" className="tour-img" alt="" />
+            <img
+              src="./images/tour-4.jpeg"
+              className="tour-img"
+              alt=""
+            />
             <p className="tour-date">december 5th, 2019</p>
           </div>
           <div className="tour-info">
@@ -89,7 +118,10 @@ export default function Tour() {
             </p>
             <div className="tour-footer">
               <p>
-                <span><i className="fas fa-map"></i></span> kenya
+                <span>
+                  <i className="fas fa-map"></i>
+                </span>{" "}
+                kenya
               </p>
               <p>20 days</p>
               <p>from $3300</p>
@@ -98,5 +130,5 @@ export default function Tour() {
         </article>
       </div>
     </section>
-    )
+  );
 }

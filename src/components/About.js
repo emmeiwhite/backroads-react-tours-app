@@ -1,16 +1,15 @@
 import aboutImg from "./../images/about.jpeg";
+import Title from "./Title";
 export default function About() {
   return (
     <section
       className="section"
       id="about"
     >
-      <div className="section-title">
-        <h2>
-          about <span>us</span>
-        </h2>
-      </div>
-
+      <Title
+        text1="About"
+        text2="Us"
+      />
       <div className="section-center about-center">
         <div className="about-img">
           <img

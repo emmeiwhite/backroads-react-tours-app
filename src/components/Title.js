@@ -1,4 +1,4 @@
-export default function Title(text1, text2) {
+export default function Title({ text1, text2 }) {
   return (
     <div className="section-title">
       <h2>
