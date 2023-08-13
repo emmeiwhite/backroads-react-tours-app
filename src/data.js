@@ -1,3 +1,8 @@
+import tour1 from "./images/tour-1.jpeg";
+import tour2 from "./images/tour-2.jpeg";
+import tour3 from "./images/tour-3.jpeg";
+import tour4 from "./images/tour-4.jpeg";
+
 export const pageLinks = [
   {
     id: 1,
@@ -57,5 +62,48 @@ export const services = [
     title: "Amazing Comfort",
     icon: "fas fa-socks fa-fw",
     text: "We make sure comfort is not compromised while hiking",
+  },
+];
+
+export const tours = [
+  {
+    id: 1,
+    title: "Tibet Adventure",
+    date: "August 26th, 2023",
+    text: "We provide additional coupons and high concession on different offers",
+    days: 6,
+    price: 2100,
+    country: "China",
+    img: tour1,
+  },
+  {
+    id: 2,
+    title: "Best of Java",
+    date: "October 11th, 2023",
+    text: "Explore the world, be a step ahead and make a difference",
+    days: 11,
+    price: 1400,
+    country: "Indonesia",
+    img: tour2,
+  },
+  {
+    id: 3,
+    title: "Explore Hong Kong",
+    date: "September 15th, 2023",
+    text: "We make sure comfort is not compromised while hiking",
+    days: 8,
+    price: 50000,
+    country: "Hong Kong",
+    img: tour3,
+  },
+  {
+    id: 4,
+    title: "Kenya Highlights",
+    date: "September 15th, 2023",
+    text: "We make sure comfort is not compromised while hiking",
+    days: 20,
+    price: 4300,
+    country: "Kenya",
+    img: tour4,
   },
 ];
