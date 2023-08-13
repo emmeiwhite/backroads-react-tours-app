@@ -15,7 +15,10 @@ export default function Tours() {
 
       <div className="section-center featured-center">
         {tours.map((tour) => (
-          <Tour {...tour} />
+          <Tour
+            {...tour}
+            key={tour.id}
+          />
         ))}
       </div>
     </section>

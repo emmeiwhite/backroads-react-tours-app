@@ -15,7 +15,10 @@ export default function Services() {
 
       <div className="section-center services-center">
         {services.map((service) => (
-          <Service {...service} />
+          <Service
+            {...service}
+            key={service.id}
+          />
         ))}
       </div>
     </section>
