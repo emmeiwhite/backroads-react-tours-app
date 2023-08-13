@@ -7,7 +7,7 @@ export const pageLinks = [
   {
     id: 1,
     href: "#home",
-    text: "",
+    text: "Home",
   },
   {
     id: 2,
